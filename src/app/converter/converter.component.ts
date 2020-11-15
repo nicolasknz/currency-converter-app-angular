@@ -22,6 +22,10 @@ export class ConverterComponent implements OnInit {
     this.service.getRates(this.from).subscribe(res => this.rates = res.rates)
   }
 
+  getAllCurrencies(): string[]{
+    return Object.keys(this.rates)
+  }
+
   constructor(private service: CurrencyExchangeService) {
     this.service.getRates(this.from).subscribe(res => console.log)
   }
