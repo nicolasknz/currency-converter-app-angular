@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ExchangeRatesService } from './exchange-rates.service';
+import { CurrencyExchangeService } from './exchange-rates.service';
 
 describe('ExchangeRatesService', () => {
-  let service: ExchangeRatesService;
+  let service: CurrencyExchangeService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(ExchangeRatesService);
+    service = TestBed.inject(CurrencyExchangeService);
   });
 
   it('should be created', () => {
