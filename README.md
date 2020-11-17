@@ -1,4 +1,4 @@
-First time in contact with Angular
+# First time in contact with Angular
 
 # CurrencyConverter
 
